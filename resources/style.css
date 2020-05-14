@@ -1,1 +1,104 @@
 /*this is the style doc*/
+
+html {
+    
+}
+
+body {
+    width: 100%;
+}
+
+.header {
+    display: inline-flex;
+}
+
+.header ul{
+    
+}
+
+.banner {
+    background-color: lightgray;
+    display: inline-flex;
+    width: 100%;
+}
+
+.banner img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.banner .button {
+    background-color: grey;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.practice {
+    display: inline-flex;
+
+}
+
+.practice .left {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.practice img {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.practice .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.practice .right div {
+    display: inline-flex;
+}
+
+.start {
+    background-color: lightgrey;
+}
+
+.start h2 {
+    text-align: center;
+    padding: 32px 0 ;
+}
+
+.start .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start .container div {
+    background-color: white;
+}
+
+.start .container img {
+    height: auto;
+}
+
+.thesis .container {
+    display: flex;
+    
+}
+
+.thesis h2 {
+    text-align: center;
+    padding: 32px 0 ;
+}
+
+video {
+    width: 60%;
+}
+
+
+footer {
+    display: inline-flex;
+}
+
+footer .links {
+    
+    display: inline-flex;
+}
