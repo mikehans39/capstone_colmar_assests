@@ -5,21 +5,49 @@ html {
 }
 
 body {
-    width: 100%;
+    font-family: sans-serif;
 }
 
 .header {
+    width: 100%;
     display: inline-flex;
+    align-items: center;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    justify-content: space-between;
+    z-index: 10;
+    
+}
+
+.header .container{
+    text-align: left;
+    display: inline-flex;
+    vertical-align: center;
+    padding-left: 24px;
 }
 
 .header ul{
-    
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 24px;
+}
+
+.header li {
+    padding-left: 16px;
 }
 
 .banner {
     background-color: lightgray;
+    position: relative;
     display: inline-flex;
     width: 100%;
+    left: 0;
+    margin-top:64px;
+    align-items: center;
 }
 
 .banner img {
@@ -27,61 +55,94 @@ body {
     margin: 32px 24px;
 }
 
+.banner .container {
+    margin-left: 24px;
+    width: 50%;
+    height: auto;
+}
+
 .banner .button {
-    background-color: grey;
+    background-color:slategray;
+    color: white;
+    width: 50%;
+    margin: 0 25%;
     padding: 8px 0px;
     text-align: center;
 }
 
 .practice {
+    
     display: inline-flex;
 
 }
 
 .practice .left {
     width: 60%;
-    padding: 0 24px;
+    
 }
 
-.practice img {
-    width: 100%;
-    margin: 32px 0;
+.practice .left img {
+    width:80%;
+    height: auto;
+    margin: 32px 24px;
 }
 
 .practice .right {
+    width: 40%;
     display: flex;
     flex-direction: column;
+    padding-left: 16px;
 }
 
 .practice .right div {
     display: inline-flex;
+    justify-content: center;
+}
+
+.practice .right img {
+    width: 35%;
+    padding: 16px 16px 16px 0px;
+    height: auto;
+    
+}
+
+.practice .right .text {
+    display: flex;
+    flex-direction: column;
+
+    
 }
 
 .start {
     background-color: lightgrey;
+    width: 100%;
 }
 
 .start h2 {
     text-align: center;
-    padding: 32px 0 ;
+    padding: 32px 0 16px 0 ;
 }
 
 .start .container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .start .container div {
     background-color: white;
+    flex-basis: 10%;
+    margin: 16px;
 }
 
 .start .container img {
     height: auto;
+    
 }
 
 .thesis .container {
-    display: flex;
-    
+    display: inline-flex;   
 }
 
 .thesis h2 {
@@ -89,16 +150,48 @@ body {
     padding: 32px 0 ;
 }
 
-video {
+.thesis .left {
     width: 60%;
+}
+
+.thesis .right{
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.thesis .right .box{
+    display: inline-flex;
+}
+
+.thesis .right img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.thesis .right div {
+    
+}
+
+
+video {
+    width: 100%;
 }
 
 
 footer {
+    width: 100%;
     display: inline-flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
 }
 
 footer .links {
-    
     display: inline-flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    padding-left:10px;
 }
