@@ -170,7 +170,6 @@ body {
 .thesis .right .box{
     display: inline-flex;
     width: 100%;
-    border: red solid 1px;
 }
 
 .thesis .right img {
